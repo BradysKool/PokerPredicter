@@ -57,7 +57,7 @@ if(trainOrAdd == 't'):
 else:
     inX2 = int(input('how many games would you like to play: '))
 
-    with open('cardData2.csv','a',newline='') as f:
+    with open('cardData.csv','a',newline='') as f:
         writer = csv.writer(f)
         
         for i in range(inX2):
